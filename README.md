@@ -35,8 +35,8 @@ Welcome to the backend repository for the Pinterest Clone project! This project 
     Create a `.env` file in the root directory and provide the following variables:
     ```env
     PORT=3000
-    MONGODB_URI=your_mongodb_connection_string
-    JWT_SECRET=your_jwt_secret_key
+mongoose.connect('mongodb://localhost:27017/mydatabase');
+    secret: "pinterest app is goin on"
     ```
 
 3. Start the server:
@@ -60,4 +60,7 @@ Feel free to contribute by submitting issues, feature requests, or pull requests
 
 Special thanks to [Pinterest](https://www.pinterest.com/) for the inspiration behind this project.
 
+
+The owner
+Mohammed Ishaq Chennari
 Happy coding!
