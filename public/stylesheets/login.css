@@ -1,0 +1,47 @@
+.container {
+    padding: 25px 16px;
+    padding: 30px 15px;
+    background-color: white;
+    width: 480px;
+     min-height: 500px; 
+   
+    margin: auto;
+    top: 36%;
+    left: 30%;
+    transform:translate(-50%, -50%) ;
+    bottom: 0;
+    right: 0;
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px -1px rgba(0, 0, 0, 0.5);
+  }
+.error-message{
+    font-weight: 600;
+    color: red;
+    text-transform: capitalize;
+    margin: 16px 0;
+   
+   
+  }
+ 
+  
+  /* Styles for smaller screens (mobile devices) */
+  @media  (max-width: 600px) {
+    .container {
+      width: 85%;
+      margin-top: 16%;
+    margin-left: 15%;
+    }
+  
+    .img1 {
+      width: 100%;
+      height: auto;
+    }
+  
+    .content {
+      padding: 20px;
+    }
+  
+    .header {
+      font-size: 20px;
+      
+    }}
