@@ -1,0 +1,27 @@
+{
+    "name": "your-project-name",
+    "version": 2,
+    "builds": [
+      {
+        "src": "./index.js",
+        "use": "@vercel/static-build",
+        "config": {
+          
+        }
+      }
+    ],
+    "routes": [
+      {
+        "src": "/api/(.*)",
+        "dest": "/api/$1"
+      },
+      {
+        "src": "/(.*)",
+        "dest": "/your-page-folder/$1"
+      }
+    ],
+    "env": {
+      "YOUR_ENV_VARIABLE": "your-value"
+    },
+    "public": true
+  }
